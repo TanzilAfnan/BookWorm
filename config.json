@@ -1,0 +1,8 @@
+{
+  "DBCreds": {
+    "dbUser": "tanzil.afn",
+    "dbPassword": "Liverpool2!",
+    "server": "ds155164.mlab.com:55164",
+    "DBName": "gql-book-warm"
+  }
+}
