@@ -2,9 +2,13 @@ const express = require ('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./schema/schema');
 // let mongoose = require('./models/db');
+const cors = require('cors');
 
 const app = express();
 
+
+//allow cross-origine requiest
+app.use(cors());
 
 app.use('/graphql', graphqlHTTP({
     schema,
